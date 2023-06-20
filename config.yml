@@ -1,0 +1,12 @@
+_format_version: "2.1"
+_transform: true
+
+services:
+  - url: http://echo
+    routes:
+      - paths:
+          - "/"
+    plugins:
+      - name: my-plugin
+        config:
+          headerkey: "test-header"

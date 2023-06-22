@@ -1,9 +1,9 @@
 module.exports = [
     {
-        "name": "Primary",
+        "name": "Kong Admin API Seed",
         "type": "default",
-        "active": true,
-        "kong_admin_url": "http://kong:8001",
-        "health_checks": false
+        "kong_admin_url": "http://kong:8001/",
+        "health_checks": false,
+        "active": true
     }
 ]
